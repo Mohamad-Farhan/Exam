@@ -41,6 +41,7 @@ DELETE FROM user WHERE email = info@meraki-academy.org
 
 Q10) What is the query to perform a left join on two tables (users, posts) depending on the user_id? (user_id is a FK in `posts` table)
 
+SELECT * FROM users LEFT [OUTER] JOIN posts user.user_id=posts uaer_id 
 
 Q11) What is the query to get all the users that their age ranges from 20-30 from the `users` table?
 
