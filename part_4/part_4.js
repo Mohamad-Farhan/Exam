@@ -12,8 +12,8 @@ return 'NO' if the parentheses in the input string are not balanced,.
 console.log('PART 4');
 
 const isABalancedString = () => {
-  // WRITE YOUR CODE BELOW THIS LINE
-};
+}
+
 
 /*
 
